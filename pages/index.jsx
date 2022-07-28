@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Hero from '../components/Hero/hero';
+import Message from '../components/Message/message';
 import Navbar from '../components/NavBar/nav';
 
 
@@ -14,7 +15,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar/>
-      <Hero heading='WELCOME TO'/>     
+      <Hero heading='WELCOME TO'/>   
+      <Message/>  
     </div>
   );
 }

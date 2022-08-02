@@ -2,8 +2,7 @@ import Head from 'next/head';
 import Hero from '../components/Hero/hero';
 import Message from '../components/Message/message';
 import Navbar from '../components/NavBar/nav';
-
-
+import Projects from '../components/Projects/projects';
 
 
 export default function Home() {
@@ -16,7 +15,12 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Hero heading='WELCOME TO'/>   
-      <Message/>  
+      <Message/>
+      <section className='mt-10'>
+      <Projects/>
+      </section>
+      
+      
     </div>
   );
 }

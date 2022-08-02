@@ -5,6 +5,7 @@ import Navbar from '../components/NavBar/nav';
 import Projects from '../components/Projects/projects';
 
 
+
 export default function Home() {
   return (
     <div>

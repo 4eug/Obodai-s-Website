@@ -2,7 +2,7 @@
 const Message = () => {
     return ( 
         <section className="relative flex justify-center items-center">
-        <div className="z-20 text-center md:w-3/4 px-5 -mt-8">
+        <div className=" text-center md:w-3/4 px-5 -mt-8">
         <div className="flex flex-wrap justify-center">
             <div>
                 <img src="/Logo 1.png" alt="..." className="mt-8 max-w-full h-auto align-middle " />

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../components/Footer/footer';
 import Hero from '../components/Hero/hero';
 import Message from '../components/Message/message';
 import Navbar from '../components/NavBar/nav';
@@ -20,7 +21,9 @@ export default function Home() {
       <section className='mt-10'>
       <Projects/>
       </section>
-      
+      <section className='mt-10'>
+      <Footer/>
+      </section>
       
     </div>
   );

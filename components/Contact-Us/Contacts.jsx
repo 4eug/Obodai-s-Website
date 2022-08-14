@@ -19,7 +19,7 @@ const Contacts = () => {
                     type='text'
                     id='subject'
                     className='block w-full p-3 mt-4 border border-black '
-                    placeholder='Message Subject '
+                    placeholder='Full Name'
                     required
                   />
                 </div>
@@ -28,7 +28,7 @@ const Contacts = () => {
                     type='text'
                     id='fullname'
                     className='block w-full p-3 mt-4 border border-black'
-                    placeholder='Enter full name'
+                    placeholder='Email'
                     required
                   />
                 </div>
@@ -40,7 +40,7 @@ const Contacts = () => {
                     min={10}
                     id='phone'
                     className='block w-full p-3 mt-4 border border-black'
-                    placeholder='Enter phone number'
+                    placeholder='Phone Number'
                     required
                   />
                 </div>
@@ -49,7 +49,7 @@ const Contacts = () => {
                     type='email'
                     id='email'
                     className='block w-full p-3 mt-4 border border-black '
-                    placeholder='Enter Email Address'
+                    placeholder='Company/Organization Name'
                     req
                   />
                 </div>
@@ -61,7 +61,7 @@ const Contacts = () => {
                     min={10}
                     id='phone'
                     className='block w-full p-3 mt-4 border border-black'
-                    placeholder='Enter phone number'
+                    placeholder='Location'
                     required
                   />
                 </div>
@@ -70,7 +70,7 @@ const Contacts = () => {
                     type='email'
                     id='email'
                     className='block w-full p-3 mt-4 border border-black '
-                    placeholder='Enter Email Address'
+                    placeholder='How did you hear about us?'
                     req
                   />
                 </div>
@@ -83,7 +83,7 @@ const Contacts = () => {
                     type='text'
                     id='message'
                     className='text-left w-full p-3 mt-2 border border-black '
-                    placeholder='Write your message here'
+                    placeholder='Tell us a bit about your project, timeline and budget.'
                   />
                 </div>
               </div>
@@ -91,7 +91,7 @@ const Contacts = () => {
               <div className='my-5'>
                 <button
                   type='submit'
-                  className='w-full sm:w-1/3 xl:w-1/4 bg-black text-obodai-header-h6 rounded-md py-2 text-white'
+                  className='w-1/6 text-obodai-header-h6 text-black'
                 >
                   Submit
                 </button>

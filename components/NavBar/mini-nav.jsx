@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
@@ -29,26 +30,14 @@ const Mininav = () => {
       style={{ backgroundColor: `${color}` }}
       className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-      <div className=' m-auto flex justify-between items-center p-4 text-white'>
+      <div className=' m-auto flex justify-between items-center p-4 bg-center text-white'>
        
-        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-          <li className='p-4'>
-            <Link href='/'>ABOUT</Link>
-          </li>
-          <li className='p-4'>
-            <Link href='/#gallery'>WORK</Link>
-          </li>
-          <li className='p-4'>
-            <Link href='/work'>CAPABILITIES</Link>
-          </li>
+        <ul style={{ color: `${textColor}` }} className=' sm:flex'>
+        <img className="w-full " src="/Logo 1.png" alt="/" />
           
         </ul>
 
-        <ul>
-        <li className='p-4 hidden md:flex '>
-          <button style={{ color: `${textColor}` }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white border border-{`${textColor}`} dark:hover:bg-black"> START A PROJECT </button>
-          </li>
-        </ul>
+        
 
        
 

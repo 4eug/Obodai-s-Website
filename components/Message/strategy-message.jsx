@@ -13,6 +13,9 @@ const Strategy = () => {
             businesses to create identities & experiences
             that drive transformation and growth.
             </p>
+            <div className="mt-6 text-2xl">
+                More about us
+            </div>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import Hero from '../components/Hero/hero';
 import Message from '../components/Message/message';
 import Navbar from '../components/NavBar/nav';
 import Projects from '../components/Projects/projects';
+import Strategy from '../components/Message/strategy-message';
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <section className='mt-10'>
       <Projects/>
       </section>
+      <Strategy/>
       <section className='mt-10'>
       <Footer/>
       </section>

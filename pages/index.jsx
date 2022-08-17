@@ -5,6 +5,7 @@ import Message from '../components/Message/message';
 import Navbar from '../components/NavBar/nav';
 import Projects from '../components/Projects/projects';
 import Strategy from '../components/Message/strategy-message';
+import LetsTalk from '../components/Let\'s Talk/lets-talk';
 
 
 
@@ -23,10 +24,10 @@ export default function Home() {
       <Projects/>
       </section>
       <Strategy/>
-      <section className='mt-10'>
-      <Footer/>
+      <section className='bg-gray-100 py-2'>
+        <LetsTalk/>
       </section>
-      
+      <Footer/>
     </div>
   );
 }

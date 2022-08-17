@@ -6,7 +6,7 @@ const Contacts = () => {
             Hello,
             </h1>
     
-            <h5 className='text-obodai-header-h5 leading-loose'>Ready to create some beautiful magic together? Let’s Talk.</h5>
+            <h5 className='text-obodai-header-h5 pl-1 leading-loose'>Ready to create some beautiful magic together? Let’s Talk.</h5>
     
           </div>
           <div className='w-full sm:w-2/3 lg:pr-20'>

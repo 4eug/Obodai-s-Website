@@ -5,10 +5,12 @@ import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/footer"
 import LetsTalk from "../components/Let's Talk/lets-talk";
 import Mininav from "../components/NavBar/mini-nav"
+import Meta from "../components/utilities/meta/meta";
 
 const About = () => {
   return (
     <div>
+      <Meta title="About"/>
     <Mininav/>
     <section>
      <AboutHead heading="ABOUT" title="For bold, forward-" title2="thinking businesses." />

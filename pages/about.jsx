@@ -11,7 +11,8 @@ const About = () => {
     <div>
     <Mininav/>
     <section>
-     <AboutHead/>
+     <AboutHead heading="ABOUT" title="For bold, forward-" title2="thinking businesses." />
+     <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:my-4 lg:mx-32"/>
     </section>
     <WhatWeAre/>
     <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-32"/>

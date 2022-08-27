@@ -12,13 +12,13 @@ const WhatWeAre = () => {
         creating noteworthy identities & experiences that
         drive transformation and growth.
 
-        <p className="mt-4">
+        <p className="mt-10">
         We partner with bold, forward-thinking
         businesses to build memorable brands that
         create a meaningful impact in the world.
         </p>
 
-        <p className="mt-4">
+        <p className="mt-10">
         People expect more of brands than ever before,
         and now businesses are only as strong as their
         brands. We innovate at the intersection of

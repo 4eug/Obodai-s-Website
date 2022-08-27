@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Brands = () => {
   return (
     <div name="home" className="w-full h-full flex flex-col justify-between ">
-      <div className="grid md:grid-cols-1 max-w-auto ml-2 md:ml-32 mt-16 md:mt-24">
+      <div className="grid md:grid-cols-1 max-w-auto ml-2 md:ml-32 mt-16 md:mt-10">
         <div
           className="flex flex-col justify-center md:items-start 2xl:pl-24 2xl:mb-28 w-full px-2 "
         >

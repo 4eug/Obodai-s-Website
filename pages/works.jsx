@@ -5,6 +5,7 @@ import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/footer"
 import LetsTalk from "../components/Let's Talk/lets-talk";
 import Mininav from "../components/NavBar/mini-nav"
+import { CaseStudies } from "../components/Projects/works/caseStudies";
 import Meta from "../components/utilities/meta/meta";
 
 const About = () => {
@@ -15,8 +16,8 @@ const About = () => {
     <section>
     <AboutHead heading="WORK" title="Strategy-led design for amazing" title2="brand transformation." />
     </section>
-
-    <section className='bg-gray-100 py-2'>
+    <CaseStudies/>
+    <section className='mt-20 bg-gray-100 py-2'>
       <LetsTalk/>
     </section>
     <section>

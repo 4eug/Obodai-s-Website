@@ -2,6 +2,14 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
+const CapRoute = (props) => (
+  <li>
+    <Link href={`${props.href}`} passHref>
+    CAPABILITIES
+    </Link>
+  </li>
+);
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
@@ -39,7 +47,7 @@ const Navbar = () => {
             <Link href='/works'>WORK</Link>
           </li>
           <li className='p-4'>
-            <Link href='/'>CAPABILITIES</Link>
+            <CapRoute href='/about##capabilities'></CapRoute>
           </li>
           
         </ul>

@@ -2,7 +2,7 @@ const WhatWeAre = () => {
     return (
         <div className='w-full flex items-start mt-10 justify-center flex-wrap pb-4 sm:pb-10 md:pb-12 lg:pb-16 px-4 lg:pl-10'>
           <div className='w-full sm:w-1/3 pb-8 sm:pb-0 sm:pl-0 lg:pl-10'>
-            <h1 className='ml-0 md:ml-16 text-left text-3xl lg:text-4xl font-bold leading-snug'>
+            <h1 className='ml-0 md:ml-0 text-left text-3xl lg:text-4xl font-bold leading-snug'>
             We are OBODAI
             </h1>
           </div>

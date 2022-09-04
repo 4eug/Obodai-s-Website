@@ -6,17 +6,17 @@ function Projects(){
         { src: "/Kupful.jpeg", 
         title: "KUPFUL",
         description: "A cup full of coffee",
-        id: 1
+        id: 0
         },
         { src: "/Mylo & Eddie.png",
         title: "MYLO & EDDIE",
         description: "Homemade meals in an old-fashioned ambience.",
-        id: 2
+        id: 1
         },
         { src: "/ETA.png",
         title: "ETA",
         description: "Discover pure talents",
-        id: 3
+        id: 2
         },
     ];
 

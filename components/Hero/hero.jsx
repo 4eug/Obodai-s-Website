@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from "next/link"
+import Image from 'next/future/image'
 
 const ButtonItem = (props) => (
   
@@ -18,8 +19,14 @@ const Hero = ({heading}) => {
         {/* Overlay */}
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]' />
         <div className='p-5 text-white z-[2] mt-[-0rem]'>
-          <h1 className='mt-32 text-center text-4xl'>{heading}</h1>
-          <img className="mt-4 w-full " src="/Logo 2.png" alt="/" />
+          <h1 className='mt-32 text-center text-4xl mb-10'>{heading}</h1>
+          <Image
+        src="/Logo 2.png"
+        alt="logo"
+        width={700}
+        height={700}
+        priority
+      />
           <div className="mt-32 container px-4 mx-auto text-center">
          <a className="relative inline-flex items-center justify-center w-32 h-32  hover:text-gray-700" href="">
          <ButtonItem href="#message"></ButtonItem>

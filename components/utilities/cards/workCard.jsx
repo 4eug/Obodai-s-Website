@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from 'next/future/image'
 
 function WorkCard(props) {
   return (
@@ -23,11 +25,12 @@ function WorkCard(props) {
 
         <div className="w-full">
           <div className="h-full w-full relative">
-            <img
-                src={props.src}
-                className="object-cover w-full h-96"
-                alt=""
-              />
+            <Image
+            src={props.src}
+            width={1000}
+            height={300}
+            priority
+            />
           </div>
         </div>
       </div>

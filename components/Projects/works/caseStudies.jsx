@@ -9,7 +9,7 @@ export const CaseStudies = () => {
           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           imgSrc: "/Kupful.jpeg",
           type: "Identity Design/Positioning",
-          id: 1,
+          id: 0,
         },
         {
           title: "Mylo & Eddie",
@@ -17,7 +17,7 @@ export const CaseStudies = () => {
           imgSrc: "/Mylo & Eddie.png",
           lgFlexDirection: "lg:flex-row-reverse",
           type: "Identity Design/Positioning",
-          id: 2,
+          id: 1,
           
         },
         {
@@ -25,7 +25,7 @@ export const CaseStudies = () => {
           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           imgSrc: "/ETA.png", 
           type: "Identity Design/Positioning",
-          id: 3,
+          id: 2,
         },
         
       ];

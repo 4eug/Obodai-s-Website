@@ -1,12 +1,17 @@
 /* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
+import Image from 'next/future/image'
 
 function ProjectCard(props) {
     return ( 
     <section classNameName="mt-20 ">
     <div className="relative">
-        <img src={props.src} alt='' className="" width='100%' height='10%' /> 
+      <Image
+      src={props.src}
+      width="1500"
+      height="1000"
+      priority
+      />
+        {/* <img src={props.src} alt='' className="" width='100%' height='10%' />  */}
         <div className="absolute bottom-0 left-0 md:p-10 p-6">
         <h2 className="text-2xl md:text-3xl font-semibold 5 text-white">{props.title}</h2>
         <p className="text-xl leading-4 text-white mt-2">{props.description}</p>

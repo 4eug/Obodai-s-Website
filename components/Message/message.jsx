@@ -1,13 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Message = (props) => {
     return ( 
         <section className="relative grid justify-center items-center">
         <div className=" text-center md:w-full px-5 -mt-8">
-        <div className="inline-block justify-center">
+        <div className="inline-block justify-center mt-8">
             <div id='#message'>
-                <img src="/Logo 1.png" alt="..." className="mt-8 max-w-full h-auto align-middle " />
+            <Image
+        src="/Logo 1.png"
+        alt="logo"
+        width={220}
+        height={50}
+        priority
+      />
             </div>
             </div>
         </div>

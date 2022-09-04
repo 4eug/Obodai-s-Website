@@ -7,6 +7,7 @@ import Projects from '../components/Projects/projects';
 import Strategy from '../components/Message/strategy-message';
 import LetsTalk from '../components/Let\'s Talk/lets-talk';
 import Meta from '../components/utilities/meta/meta';
+import Samples from '../components/Projects/samples';
 
 
 

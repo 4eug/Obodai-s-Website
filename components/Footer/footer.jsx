@@ -17,8 +17,8 @@ const Footer = ({heading}) => {
                             <span className="text-white text-xl mb-8">Ofankor-Ghana.</span>
                         </div>
                         <div className="flex flex-col">
-                            <span><a href="#" className="text-white text-xl">030 – 244 – 7359</a></span>
-                            <span className='mb-8'><a href="#" className="text-white text-xl">hello@obodai.com</a></span>
+                            <span><a href="tel:+2330302447359" className="text-white text-xl">030 – 244 – 7359</a></span>
+                            <span className='mb-8'><a href="mailto:hello@obodai.com" className="text-white text-xl">hello@obodai.com</a></span>
                         </div>
                         <div className="flex flex-col">
                             <span><a href="#" className="text-white text-xl">Instagram</a></span>

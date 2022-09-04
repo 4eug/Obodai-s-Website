@@ -1,22 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
 const Message = () => {
     return ( 
-        <section className="relative flex justify-center items-center">
-        <div className=" text-center md:w-3/4 px-5 -mt-8">
-        <div className="flex flex-wrap justify-center">
+        <section className="relative grid justify-center items-center">
+        <div className=" text-center md:w-full px-5 -mt-8">
+        <div className="inline-block justify-center">
             <div>
                 <img src="/Logo 1.png" alt="..." className="mt-8 max-w-full h-auto align-middle " />
             </div>
             </div>
-  
-          <p className="mt-10 text-3xl md:text-5xl font-bold w-10/12 mx-auto">
-            We help build memorable brands that
-            create a meaningful impact in the world.
+        </div>
+        
+        <p className="mt-10 text-3xl md:text-6xl ml-4 md:ml-8 font-semibold w-3/4">
+        We help transform brands,
+        through design & brand thinking.
           </p>
 
-          <button className="h-10 w-40 mt-10 font-medium text-white border border-black bg-black"> START A PROJECT </button>
-          
-        </div>
+          <div className='my-3 m-4 md:m-10 '>
+              <a href="" className="">
+            <span className="text-2xl md:text-2xl font-light">Say hello today</span>
+
+            <svg width="72" height="24" viewBox="0 0 72 24" className="inline-block pb-2" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M71.0607 13.0607C71.6464 12.4749 71.6464 11.5251 71.0607 10.9393L61.5147 1.3934C60.9289 0.807611 59.9792 0.807611 59.3934 1.3934C58.8076 1.97919 58.8076 2.92893 59.3934 3.51472L67.8787 12L59.3934 20.4853C58.8076 21.0711 58.8076 22.0208 59.3934 22.6066C59.9792 23.1924 60.9289 23.1924 61.5147 22.6066L71.0607 13.0607ZM0 13.5H70V10.5H0V13.5Z" fill="black"/>
+        </svg>
+  
+            </a>
+              </div>
+
       </section>
      );
 }

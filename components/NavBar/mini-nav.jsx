@@ -6,7 +6,8 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const Mininav = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
-  const [textColor, setTextColor] = useState('white');
+  const [textColor, setTextColor] = useState('black');
+  const [closeColor, setCloseColor] = useState('white');
 
   const handleNav = () => {
     setNav(!nav);
@@ -30,21 +31,28 @@ const Mininav = () => {
       style={{ backgroundColor: `${color}` }}
       className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-      <div className=' m-auto flex justify-between items-center p-4 bg-center text-white'>
+      <div className=' m-auto flex justify-between p-4 items-center text-white'>
        
+        <ul>
+          <li></li>
+        </ul>
+
         <ul style={{ color: `${textColor}` }} className=' sm:flex'>
-        <img className="w-full " src="/Logo 1.png" alt="/" />
+        <img className="w-full hidden md:flex pl-32" src="/Logo 1.png" alt="/" />
           
         </ul>
 
-        
-
+        <ul>
+        <li className='p-4 hidden md:flex '>
+          <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black"> START A PROJECT </button>
+          </li>
+        </ul>
        
 
         {/* Mobile Button */}
          <div onClick={handleNav} className='block sm:hidden z-10'>
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={20} style={{ color: `${closeColor}` }} />
           ) : (
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}

@@ -19,8 +19,8 @@ const Mininav = () => {
         setColor('#ffffff');
         setTextColor('#000000');
       } else {
-        setColor('transparent');
-        setTextColor('#ffffff');
+        setColor('#ffffff');
+        setTextColor('#000000');
       }
     };
     window.addEventListener('scroll', changeColor);
@@ -38,8 +38,9 @@ const Mininav = () => {
         </ul>
 
         <ul style={{ color: `${textColor}` }} className=' sm:flex'>
+          <Link href="/">
         <img className="w-full hidden md:flex pl-32" src="/Logo 1.png" alt="/" />
-          
+        </Link>
         </ul>
 
         <ul>
@@ -69,13 +70,13 @@ const Mininav = () => {
         > 
           <ul>
             <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
-              <Link href='/'>ABOUT</Link>
+              <Link href='/about'>ABOUT</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
-              <Link href='/#gallery'>WORK</Link>
+              <Link href='/works'>WORK</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
-              <Link href='/work'>CAPABILITIES</Link>
+              <Link href='/works'>CAPABILITIES</Link>
             </li>
             <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-medium text-white border border-white dark:hover:bg-black'>
               <Link href='/contact'>START A PROJECT </Link>

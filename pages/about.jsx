@@ -14,12 +14,12 @@ const About = () => {
     <Mininav/>
     <section>
      <AboutHead heading="ABOUT" title="For bold, forward-" title2="thinking businesses." />
-     <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:my-4 lg:mx-32"/>
+     <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>
     </section>
     <WhatWeAre/>
-    <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-32"/>
+    <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>
     <Help/>
-    <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-32"/>
+    <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>
     <Brands/>
     <section className='bg-gray-100 py-2'>
       <LetsTalk/>

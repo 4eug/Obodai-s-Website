@@ -7,8 +7,9 @@ function ProjectCard(props) {
     <div className="relative">
       <Image
       src={props.src}
-      width="1500"
-      height="1000"
+      className=" 2xl:w-screen"
+      width="1440"
+      height="664"
       priority
       />
         {/* <img src={props.src} alt='' className="" width='100%' height='10%' />  */}

@@ -39,7 +39,7 @@ const Mininav = () => {
 
         <ul style={{ color: `${textColor}` }} className=' sm:flex'>
           <Link href="/">
-        <img className="w-full hidden md:flex pl-32" src="/Logo 1.png" alt="/" />
+        <img className="w-full hidden md:flex pl-32 cursor-pointer" src="/Logo 1.png" alt="/" />
         </Link>
         </ul>
 

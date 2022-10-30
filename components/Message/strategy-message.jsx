@@ -7,7 +7,7 @@ const Strategy = () => {
         <div className="grid md:grid-cols-2 max-w-[1240px] m-2 md:m-8">
           <div className="flex flex-col justify-center md:items-start w-full py-8">
             {/* <h1 className="text-4xl md:text-4xl font-bold ">We’re a strategy-led design studio.</h1> */}
-            <p className="mt-2 text-[30px] md:text-[40px] leading-tight font-light">
+            <p className="mt-2 text-[30px] md:text-[40px] w-[321px] md:w-[751px] leading-tight font-medium">
             We work with business leaders to help
             drive brand transformation and create
             unique stories that inspire.

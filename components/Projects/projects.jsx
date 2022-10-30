@@ -4,18 +4,21 @@ function Projects(){
 
     const projectArray = [
         { src: "/Kupful.jpeg", 
-        title: "KUPFUL",
-        description: "A cup full of coffee",
+        title: "Carpe Diem Beads & Beauty",
+        description: "Breathing new life into an old identity.",
+        url:"",
         id: 0
         },
-        { src: "/Mylo & Eddie.png",
-        title: "MYLO & EDDIE",
-        description: "Homemade meals in an old-fashioned ambience.",
+        { src: "/ETA.png",
+        title: "Extraterrestrial Arts",
+        description: "Discovering true African talents.",
+        url:"",
         id: 1
         },
         { src: "/ETA.png",
-        title: "ETA",
-        description: "Discover pure talents",
+        title: "Wall of Fave",
+        description: "A curated collection of our favorite logos.",
+        url:"",
         id: 2
         },
     ];
@@ -27,6 +30,7 @@ function Projects(){
             title={item.title}
             src={item.src}
             description={item.description}
+            url={item.url}
             key={item.id}
             />
           ))}

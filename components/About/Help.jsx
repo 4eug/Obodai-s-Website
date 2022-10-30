@@ -8,40 +8,12 @@ const Help = () => {
           </div>
           <div className='w-full sm:w-2/3 lg:pr-20'>
            <p className='ml-0 md:ml-32 text-left text-xl lg:text-2xl leading-snug'>
-            <span className="font-bold">Strategy</span>
-                <ol>
-                Brand Discovery
-                </ol>
-                <ol>
-                Positioning Strategy
-                </ol>
-                <ol>
-                Messaging/Verbal Identity
-                </ol>
-                <ol>
-                Creative Direction
-                </ol>
-           </p>
-           <p className='ml-0 md:ml-32 mt-8 text-left text-xl lg:text-2xl leading-snug'>
-            <span className="font-bold">Design</span>
-                <ol>
-                Logo Design & Animation
-                </ol>
-                <ol>
-                Brand Design
-                </ol>
-                <ol>
-                Art Direction
-                </ol>
-                <ol>
-                Packaging Design
-                </ol>
-                <ol>
-                Communication Design
-                </ol>
-                <ol>
-                Collateral Design
-                </ol>
+           Our clients are mostly going through brand changes, entering
+          new markets, launching new products, or are just confounded.
+          We work directly with founders, CEOs & CMOs, and their direct
+          teams to align business goals to brand strategy.
+          Our work encompasses strategy & positioning, naming &
+          messaging, logo & visual identity, products & packaging.
            </p>
           </div>
         </div>

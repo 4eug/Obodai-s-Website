@@ -3,19 +3,19 @@ import ProjectCard from "./projectCard";
 function Projects(){
 
     const projectArray = [
-        { src: "/Kupful.jpeg", 
+        { src: "/Carpe Diem.jpeg", 
         title: "Carpe Diem Beads & Beauty",
         description: "Breathing new life into an old identity.",
         url:"",
         id: 0
         },
-        { src: "/ETA.png",
+        { src: "/ETA.jpeg",
         title: "Extraterrestrial Arts",
         description: "Discovering true African talents.",
         url:"",
         id: 1
         },
-        { src: "/ETA.png",
+        { src: "/Wall of Fave.jpeg",
         title: "Wall of Fave",
         description: "A curated collection of our favorite logos.",
         url:"",

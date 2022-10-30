@@ -2,13 +2,13 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
-const CapRoute = (props) => (
-  <li>
-    <Link href={`${props.href}`} passHref>
-    CAPABILITIES
-    </Link>
-  </li>
-);
+// const CapRoute = (props) => (
+//   <li>
+//     <Link href={`${props.href}`} passHref>
+//     CAPABILITIES
+//     </Link>
+//   </li>
+// );
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -46,16 +46,16 @@ const Navbar = () => {
           <li className='p-4'>
             <Link href='/works'>WORK</Link>
           </li>
-          <li className='p-4'>
+          {/* <li className='p-4'>
             <CapRoute href='/about##capabilities'></CapRoute>
-          </li>
+          </li> */}
           
         </ul>
 
         <ul>
         <li className='p-4 hidden md:flex '>
-          <button style={{ color: `${textColor}` }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white border border-{`${textColor}`} dark:hover:bg-black">
-          <Link href='/contact'>START A PROJECT </Link>
+          <button style={{ color: `${textColor}` }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white border-[1px] border-{`${textColor}`} dark:hover:bg-black">
+          <Link href='/contact'>WORK WITH US </Link>
           </button>
           </li>
         </ul>

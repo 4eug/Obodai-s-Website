@@ -14,7 +14,7 @@ const About = () => {
         <Meta title="Works"/>
     <Mininav/>
     <section>
-    <AboutHead heading="WORK" title="Strategy-led design for amazing" title2="brand transformation." />
+    <AboutHead heading="WORK" title="We give brands clarity," title2="and a personality to thrive." />
     </section>
     <CaseStudies/>
     <section className='mt-20 bg-gray-100 py-2'>

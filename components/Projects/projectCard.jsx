@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/future/image'
 
@@ -5,11 +6,11 @@ function ProjectCard(props) {
     return ( 
     <section classNameName="mt-20 ">
     <div className="relative">
-      <Image
+      <img
       src={props.src}
-      className="w-[375px] h-[610px] md:w-[1440px] md:h-[664px] 2xl:w-screen object-cover"
-      width="1440"
-      height="664"
+      className="w-[450px] h-[610px] sm:w-[400px] md:w-[1440px] md:h-[664px] 2xl:w-screen object-cover"
+      // width="1440"
+      // height="664"
       priority
       />
         {/* <img src={props.src} alt='' className="" width='100%' height='10%' />  */}

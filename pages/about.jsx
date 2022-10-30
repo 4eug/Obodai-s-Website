@@ -13,7 +13,7 @@ const About = () => {
       <Meta title="About"/>
     <Mininav/>
     <section>
-     <AboutHead heading="ABOUT" title="For bold, forward-" title2="thinking businesses." />
+     <AboutHead heading="ABOUT" title="For the bold, forward-" title2="looking businesses." />
      <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>
     </section>
     <WhatWeAre/>

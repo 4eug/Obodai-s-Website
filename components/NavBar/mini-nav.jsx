@@ -46,7 +46,7 @@ const Mininav = () => {
         <ul>
         <li className='p-4 hidden md:flex '>
           <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black">
-          <Link href='/contact'>START A PROJECT </Link>
+          <Link href='/contact'>WORK WITH US </Link>
           </button>
           </li>
         </ul>

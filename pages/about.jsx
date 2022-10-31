@@ -4,6 +4,7 @@ import WhatWeAre from "../components/About/What-we-are";
 import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/footer"
 import LetsTalk from "../components/Let's Talk/lets-talk";
+import AboutNav from "../components/NavBar/about-nav";
 import Mininav from "../components/NavBar/mini-nav"
 import Meta from "../components/utilities/meta/meta";
 
@@ -11,7 +12,7 @@ const About = () => {
   return (
     <div>
       <Meta title="About"/>
-    <Mininav/>
+    <AboutNav/>
     <section>
      <AboutHead heading="ABOUT" title="For the bold, forward-" title2="looking businesses." />
      <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>

@@ -15,6 +15,7 @@ const About = () => {
     <Mininav/>
     <section>
     <AboutHead heading="WORK" title="We give brands clarity," title2="and a personality to thrive." />
+    <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>
     </section>
     <CaseStudies/>
     <section className='mt-20 bg-gray-100 py-2'>

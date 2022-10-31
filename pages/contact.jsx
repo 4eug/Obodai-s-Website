@@ -1,5 +1,6 @@
 import Contacts from "../components/Contact-Us/Contacts"
 import Footer from "../components/Footer/footer"
+import ContactNav from "../components/NavBar/contact-nav"
 import Mininav from "../components/NavBar/mini-nav"
 import Meta from "../components/utilities/meta/meta"
 
@@ -7,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <Meta title="Contact" />
-      <Mininav/>
+      <ContactNav/>
     <section className='md:mt-32 mt-16'>
     <Contacts/>
     </section>

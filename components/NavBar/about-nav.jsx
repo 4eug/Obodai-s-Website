@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
@@ -70,9 +71,11 @@ const AboutNav = () => {
 
         {/* Mobile Button */}
         <div className='mr-72 flex md:hidden'>
+          <a href="/">
         <svg width="30" height="30" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fillRule="evenodd" clipRule="evenodd" d="M10.6711 14.6371C24.2895 -1.64583 46.1974 -5.19847 62.875 8.81472C79.5527 22.7292 79.75 45.0319 66.2303 61.2162C52.6119 77.4991 30.8027 81.1504 14.0264 67.1372C-2.65127 53.2227 -2.94732 30.92 10.5724 14.6371H10.6711ZM63.0724 58.453C73.4343 46.1174 65.1448 27.9595 54.2895 18.8805C43.4343 9.80157 24.1908 4.96603 13.829 17.3016C3.46715 29.6371 11.7566 47.7951 22.6119 56.874C33.4672 65.953 52.7106 70.7885 63.0724 58.453Z" fill="black"/>
         </svg>
+        </a>
         </div>
          <div onClick={handleNav} className='block sm:hidden z-10'>
           {nav ? (

@@ -19,7 +19,9 @@ const Contacts = () => {
             Do you have a general <br />
             question?
             <p className="mt-[20px] pl-1">
-              Email us instead.
+              <a href="mailto:hello@obodai.com">
+              <span className="font-bold">Email us</span> instead.
+              </a>
             </p>
             </h5>
 

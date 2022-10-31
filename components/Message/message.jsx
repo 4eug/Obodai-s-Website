@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 const Message = (props) => {
     return ( 
@@ -8,13 +8,7 @@ const Message = (props) => {
         <div className=" text-center md:w-full px-5 -mt-8">
         <div className="inline-block justify-center mt-8">
             <div id='#message'>
-            <Image
-        src="/Logo 1.png"
-        alt="logo"
-        width={200}
-        height={45}
-        priority
-      />
+          
             </div>
             </div>
         </div>

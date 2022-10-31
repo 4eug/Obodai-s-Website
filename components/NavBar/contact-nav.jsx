@@ -78,7 +78,7 @@ const ContactNav = () => {
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={20} />
           )}
         </div>
         {/* Mobile Menu */}

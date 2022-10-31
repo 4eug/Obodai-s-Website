@@ -19,7 +19,7 @@ const Hero = ({heading}) => {
         {/* Overlay */}
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]' />
         <div className='p-5 text-white z-[2] mt-[-0rem]'>
-          <h1 className='mt-[200px] text-center text-4xl mb-[30px]'>{heading}</h1>
+          <h1 className='mt-[200px] text-center text-4xl mb-[30px]'>{heading}</h1> 
           <Image
         src="/Logo 2.png"
         alt="logo"

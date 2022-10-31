@@ -2,9 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-img {
+/* .custom-img {
   background-image: url("/Mylo & Eddie.png");
-}
+  background-image: url("/Kupful.jpeg");
+  transition: opacity 1s ease-in-out;
+} */
+
+.custom-img {
+    height: 98vh;
+    width: 100vw;
+    background-size: cover;
+    animation: image 10s infinite alternate;
+  }
+  
+  @keyframes image {
+    0% {
+      background-image: url("/Mylo & Eddie.png");
+    }
+    30% {
+        background-image: url("/Carpe Diem.jpeg");
+    }
+    50% {
+        background-image: url("/Wall of Fave.jpeg");
+    }
+    70% {
+        background-image: url("/Carpe Diem.jpeg");
+    }
+    100% {
+      background-image: url("/Kupful.jpeg");
+    }
+  }
 
 .custom-img2 {
   background-image: url("/Kupful.jpeg");

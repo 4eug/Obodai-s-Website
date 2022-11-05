@@ -37,7 +37,7 @@ export const CaseStudies = () => {
         {
           title: "Marvin's Touch",
           description: "Coming Soon",
-          imgSrc: "/ETA.png", 
+          imgSrc: "/Mawins Touch.jpeg", 
           lgFlexDirection: "lg:flex-row-reverse",
           id: 3,
         },

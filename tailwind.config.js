@@ -4,9 +4,6 @@ module.exports = {
   "./components/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {
-      fontFamily: {
-        custom: ['Montserrat', 'sans-serif'],
-      },
       fontSize: {
       'obodai-header-h1': '64px',
       'obodai-header-h2': '48px',
@@ -14,7 +11,10 @@ module.exports = {
       'obodai-header-h4': '24px',
       'obodai-header-h5': '20px',
       'obodai-header-h6': '16px',
-      }
+      },
+      fontFamily: {
+        'obodai-mont': 'Montserrat'
+      },
     },
     
   },

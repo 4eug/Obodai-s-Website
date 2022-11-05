@@ -43,10 +43,10 @@ const Navbar = () => {
       <div className=' m-auto flex justify-between items-center p-4 text-white'>
        
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-          <li className='p-4'>
+          <li className='p-4 font-medium'>
             <Link href='/about'>ABOUT</Link>
           </li>
-          <li className='p-4'>
+          <li className='p-4 font-medium'>
             <Link href='/works'>WORK</Link>
           </li>
           {/* <li className='p-4'>

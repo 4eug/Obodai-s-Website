@@ -37,8 +37,13 @@ function WorkCard(props) {
           <div>
             <h2 className="mt-5 font-semibold text-2xl">{props.title}</h2>
             <p className="mt-1 md:w-[513px] w-[321px] font-normal text-lg">{props.description}</p>
-            <h2 className="mt-5 text-xl font-semibold">Capabilities</h2>
-            {/* <ol className="flex">{props.type}</ol> */}
+            <h2 className="mt-5 text-xl font-semibold">{props.cap}</h2>
+            <ol className="flex">{props.type1}</ol>
+            <ol className="flex">{props.type2}</ol>
+            <ol className="flex">{props.type3}</ol>
+            <ol className="flex">{props.type4}</ol>
+            <ol className="flex">{props.type5}</ol>
+            <ol className="flex">{props.type}</ol>
           </div>
         </div>
 

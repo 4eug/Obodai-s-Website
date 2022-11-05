@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
         <ul>
         <li className='p-4 hidden md:flex '>
-          <button style={{ color: `${textColor}` }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white border-[1px] border-{`${textColor}`} dark:hover:bg-black">
+          <button style={{ color: `${textColor}` }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium  border-[2px] ">
           <Link href='/contact'>WORK WITH US </Link>
           </button>
           </li>

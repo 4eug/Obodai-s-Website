@@ -5,22 +5,6 @@ import React from "react";
 import Image from 'next/future/image'
 
 function WorkCard(props) {
-  const capablityType = [
-    {
-      type1:"/Creative Strategy",
-      type2:"/Messaging",
-      type3:"/Identity Design",
-      type4:"/Packaging",
-      type5:"/Communication Design",
-      id:0
-    },
-    {
-      type1:"/Brand Discovery",
-      type2:"/Identity Design",
-      type3:"/Creative Strategy",
-      id:1
-    },
-  ]
   return (
     <div className="mt-32">
       <div
@@ -33,7 +17,7 @@ function WorkCard(props) {
       
       `}
       >
-        <div className="w-full flex items-center">
+        <div className="w-full hidden md:flex items-center">
           <div>
             <h2 className="mt-5 font-semibold text-2xl">{props.title}</h2>
             <p className="mt-1 md:w-[513px] w-[321px] font-normal text-lg">{props.description}</p>
@@ -55,6 +39,20 @@ function WorkCard(props) {
             height={300}
             priority
             />
+          </div>
+        </div>
+
+        <div className="w-full flex items-center md:hidden ">
+          <div>
+            <h2 className="mt-5 font-semibold text-2xl">{props.title}</h2>
+            <p className="mt-1 md:w-[513px] w-[321px] font-normal text-lg">{props.description}</p>
+            <h2 className="mt-5 text-xl font-semibold">{props.cap}</h2>
+            <ol className="flex">{props.type1}</ol>
+            <ol className="flex">{props.type2}</ol>
+            <ol className="flex">{props.type3}</ol>
+            <ol className="flex">{props.type4}</ol>
+            <ol className="flex">{props.type5}</ol>
+            <ol className="flex">{props.type}</ol>
           </div>
         </div>
       </div>

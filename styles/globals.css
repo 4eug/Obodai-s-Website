@@ -8,59 +8,65 @@
   transition: opacity 1s ease-in-out;
 } */
 
+body {
+  @apply font-obodai-mont;
+}
+
 .custom-img {
-    height: 98vh;
-    width: 100vw;
-    background-size: cover;
-    animation: image 10s infinite alternate;
+  height: 98vh;
+  width: 100vw;
+  background-size: cover;
+  animation: image 10s infinite alternate;
+}
+
+@keyframes image {
+  0% {
+    background-image: url("/Wall Sign.png");
   }
-  
-  @keyframes image {
-    0% {
-      background-image: url("/Mylo & Eddie.png");
-    }
-    30% {
-        background-image: url("/Carpe Diem.jpeg");
-    }
-    50% {
-        background-image: url("/Wall of Fave.jpeg");
-    }
-    70% {
-        background-image: url("/Carpe Diem.jpeg");
-    }
-    100% {
-      background-image: url("/Kupful.jpeg");
-    }
+  30% {
+    background-image: url("/Two Urban Posters.jpeg");
   }
+  50% {
+    background-image: url("/Cosmetics.jpeg");
+  }
+  70% {
+    background-image: url("/Business Card.jpeg");
+  }
+  100% {
+    background-image: url("/Mylo & Eddie.png");
+  }
+}
 
 .custom-img2 {
   background-image: url("/Kupful.jpeg");
 }
 
 @keyframes bounce {
-    0%, 100% {
-        transform: translateX(-25%);
-        animation-timing-function: cubic-bezier(0.8,0,1,1);
-    }
-    50% {
-        transform: none;
-        animation-timing-function: cubic-bezier(0,0,0.2,1);
-    }
+  0%,
+  100% {
+    transform: translateX(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
 }
 .animate-bounce-right {
-    animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
 }
 
-@keyframes rebound{
-    0%, 100% {
-        transform: translateY(-25%);
-        animation-timing-function: cubic-bezier(0.8,0,1,1);
-    }
-    50% {
-        transform: none;
-        animation-timing-function: cubic-bezier(0,0,0.2,1);
-    }
+@keyframes rebound {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
 }
 .animate-rebound {
-    animation: rebound 1s infinite;
+  animation: rebound 1s infinite;
 }

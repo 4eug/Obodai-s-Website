@@ -93,13 +93,13 @@ const AboutNav = () => {
           }
         > 
           <ul>
-            <li onClick={handleNav} className='p-4 text-2xl text-white'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold text-white'>
               <Link href='/about'>ABOUT</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl text-white'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold text-white'>
               <Link href='/works'>WORK</Link>
             </li>
-            <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-medium text-white border border-white dark:hover:bg-black'>
+            <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-bold text-white border border-white dark:hover:bg-black'>
               <Link href='/work'>WORK WITH US</Link>
             </button>
 

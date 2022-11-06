@@ -61,7 +61,7 @@ const Navbar = () => {
         </div>
         <ul id="#myDiv">
         <li className='p-4 hidden md:flex'>
-          <button  style={{ color: `${textColor}`, border: '1px solid '}} className="py-2.5 px-5 mr-2 mb-2 text-sm font-bold">
+          <button  style={{ color: `${textColor}`, border: '1px solid '}} className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black">
           <Link href='/contact'>WORK WITH US </Link>
           </button>
           </li>
@@ -93,13 +93,13 @@ const Navbar = () => {
           }
         > 
           <ul>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold hover:text-gray-500'>
               <Link href='/about'>ABOUT</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold  hover:text-gray-500'>
               <Link href='/works'>WORK</Link>
             </li>
-            <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-medium text-white border border-white dark:hover:bg-black'>
+            <button onClick={handleNav} className='py-4 px-5 font-bold mr-2 mb-2 text-2xl mt-4  text-white border border-white dark:hover:bg-black'>
               <Link href='/work'>WORK WITH US </Link>
             </button>
 

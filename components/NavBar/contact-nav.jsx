@@ -54,7 +54,7 @@ const ContactNav = () => {
           </li> */}
           
         </ul>
-        <div className='hidden md:flex mr-20'>
+        <div className='hidden md:flex mr-44'>
         <Link href="/">
         <img className="w-full hidden md:flex  cursor-pointer" src="/Logo 1.png" alt="/" />
         </Link>
@@ -93,10 +93,10 @@ const ContactNav = () => {
           }
         > 
           <ul>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold hover:text-gray-500'>
               <Link href='/about'>ABOUT</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold hover:text-gray-500'>
               <Link href='/works'>WORK</Link>
             </li>
             {/* <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-medium text-white border border-white dark:hover:bg-black'>

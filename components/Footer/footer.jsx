@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Link from "next/link"
 
 const Footer = ({heading}) => {
     return (
@@ -10,10 +9,10 @@ const Footer = ({heading}) => {
                 <div className="sm:flex sm:mt-8">
                     <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                     <div className="flex flex-col">
-                            <span className="text-white mt-4 text-lg md:flex hidden">© 2022 Obodai Brands. All rights reserved</span>
+                            <span className="text-white mt-4 text-lg md:flex hidden">© {new Date().getFullYear()}{' '} OBODAI. All rights reserved</span>
                         </div>
                         <div className="flex flex-col">
-                            <span className="text-white text-xl">Plot No. 10 Ameriya Road,</span>
+                            <span className="text-white text-xl">10 Ameriya Road,</span>
                             <span className="text-white text-xl mb-8">Ofankor-Ghana.</span>
                         </div>
                         <div className="flex flex-col">
@@ -30,7 +29,7 @@ const Footer = ({heading}) => {
                 </div>
             </div>
             <div className="flex flex-col md:mt-0 m-6">
-                <span className="text-white text-base md:hidden">© 2022 Obodai Brands. All rights reserved</span>
+                <span className="text-white text-base md:hidden">©{new Date().getFullYear()}{' '} OBODAI. All rights reserved</span>
             </div>
         </footer>
 

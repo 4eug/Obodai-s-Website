@@ -43,10 +43,10 @@ const Navbar = () => {
       <div className=' m-auto flex justify-between items-center p-4 text-white'>
        
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-          <li className='p-4 font-medium'>
+          <li className='p-4 font-bold'>
             <Link href='/about'>ABOUT</Link>
           </li>
-          <li className='p-4 font-medium'>
+          <li className='p-4 font-bold'>
             <Link href='/works'>WORK</Link>
           </li>
           {/* <li className='p-4'>
@@ -54,18 +54,14 @@ const Navbar = () => {
           </li> */}
           
         </ul>
-        <div className='hidden md:flex'>
-        <Image
-        src="/Logo 1.png"
-        alt="logo"
-        width={200}
-        height={45}
-        priority
-      />
+        <div className='hidden md:flex mr-18'>
+        <Link href="/">
+        <img className="w-full hidden md:flex  cursor-pointer" src="/Logo 1.png" alt="/" />
+        </Link>
         </div>
-        <ul>
-        <li className='p-4 hidden md:flex '>
-          <button style={{ color: `${textColor}` }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium  border-[2px] ">
+        <ul id="#myDiv">
+        <li className='p-4 hidden md:flex'>
+          <button  style={{ color: `${textColor}`, border: '1px solid '}} className="py-2.5 px-5 mr-2 mb-2 text-sm font-bold">
           <Link href='/contact'>WORK WITH US </Link>
           </button>
           </li>
@@ -104,7 +100,7 @@ const Navbar = () => {
               <Link href='/works'>WORK</Link>
             </li>
             <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-medium text-white border border-white dark:hover:bg-black'>
-              <Link href='/work'>START A PROJECT </Link>
+              <Link href='/work'>WORK WITH US </Link>
             </button>
 
           </ul>

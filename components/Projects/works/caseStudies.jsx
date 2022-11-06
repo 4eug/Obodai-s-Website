@@ -10,9 +10,9 @@ export const CaseStudies = () => {
           imgSrc: "/Carpe Diem.jpeg",
           cap: "Capabilities",
           type1: "/Creative Strategy",
-          type2: "/Messaging",
+          type2i: "/Messaging",
           type3: "/Identity Design",
-          type4:"/Packaging",
+          type3i:"/Packaging",
           type5:"/Communication Design",
           id: 0,
         },
@@ -22,9 +22,9 @@ export const CaseStudies = () => {
           imgSrc: "/ETA.jpeg",
           lgFlexDirection: "lg:flex-row-reverse",
           cap: "Capabilities",
-          type1: "/Brand Discovery",
+          type1: "/Creative Strategy",
           type3: "/Identity Design",
-          type: "/Creative Strategy",
+          type: "/Creative Direction",
           id: 1,
           
         },
@@ -45,7 +45,7 @@ export const CaseStudies = () => {
       ];
       
     return (
-      <div className="px-4 py-2 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-10">
+      <div className="px-4 py-2 md:ml-12 sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-2 lg:px-8 lg:py-10">
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
           
         </div>
@@ -59,10 +59,9 @@ export const CaseStudies = () => {
             lgFlexDirection={item.lgFlexDirection}
             type={item.type}
             type1={item.type1}
-            type2={item.type2}
-            type3i={item.type3i}
+            type2i={item.type2i}
             type3={item.type3}
-            type4={item.type2}
+            type3i={item.type3i}
             type5={item.type5}
             key={item.key}
             />

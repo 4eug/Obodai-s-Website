@@ -14,7 +14,7 @@ const AboutHead = (props) => {
           <h1 className="text-4xl md:text-6xl font-bold mt-2">
           {props.title}
           </h1>    
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold mt-2">
           {props.title2}
           </h1>
         </div>

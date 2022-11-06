@@ -43,10 +43,10 @@ const AboutNav = () => {
       <div className=' m-auto flex justify-between items-center p-4 '>
        
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-          <li className='p-4 text-black font-medium'>
+          <li className='p-4 text-black font-bold'>
             <Link href='/about'>ABOUT</Link>
           </li>
-          <li className='p-4 text-black font-medium'>
+          <li className='p-4 text-black font-bold'>
             <Link href='/works'>WORK</Link>
           </li>
           {/* <li className='p-4'>
@@ -54,7 +54,7 @@ const AboutNav = () => {
           </li> */}
           
         </ul>
-        <div className='hidden md:flex mr-20'>
+        <div className='hidden md:flex mr-18'>
         <Link href="/">
         <img className="w-full hidden md:flex  cursor-pointer" src="/Logo 1.png" alt="/" />
         </Link>

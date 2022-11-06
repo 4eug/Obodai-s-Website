@@ -16,20 +16,24 @@ body {
   height: 98vh;
   width: 100vw;
   background-size: cover;
-  animation: image 10s infinite alternate;
+  animation: image 20s infinite alternate;
+}
+
+#myDiv {
+  border: thick solid blue;
 }
 
 @keyframes image {
   0% {
     background-image: url("/Wall Sign.png");
   }
-  30% {
+  25% {
     background-image: url("/Two Urban Posters.jpeg");
   }
   50% {
     background-image: url("/Cosmetics.jpeg");
   }
-  70% {
+  75% {
     background-image: url("/Business Card.jpeg");
   }
   100% {

@@ -9,9 +9,9 @@ const WhatWeAre = () => {
           <div className='w-full sm:w-2/3 lg:pr-20'>
            <p className='ml-0 md:ml-32 text-left text-xl lg:text-2xl leading-snug'>
            In an age of abundant choice and information, people 
-           expect more of brands than ever before. It has therefore
+           expect more of brands than ever before. It has
           become necessary for businesses to tell clear & distinct
-          stories in order to cut through the noise and be seen &
+          stories to cut through the noise to be seen &
            heard. And now, businesses are only as strong as their brands.
 
 

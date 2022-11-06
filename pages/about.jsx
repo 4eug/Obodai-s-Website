@@ -14,7 +14,7 @@ const About = () => {
       <Meta title="About"/>
     <AboutNav/>
     <section>
-     <AboutHead heading="ABOUT" title="For the bold, forward-" title2="looking businesses." />
+     <AboutHead heading="" title="For the bold, forward-" title2="looking businesses." />
      <hr className="my-2 mx-4 border-gray-700 sm:mx-auto lg:mx-16"/>
     </section>
     <WhatWeAre/>

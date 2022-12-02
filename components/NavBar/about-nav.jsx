@@ -100,7 +100,7 @@ const AboutNav = () => {
               <Link href='/works'>WORK</Link>
             </li>
             <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-bold text-white border border-white dark:hover:bg-black'>
-              <Link href='/work'>WORK WITH US</Link>
+              <Link href='/contact'>WORK WITH US</Link>
             </button>
 
           </ul>

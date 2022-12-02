@@ -38,9 +38,9 @@ const ContactNav = () => {
   return (
     <nav
       style={{ backgroundColor: `${color}` }}
-      className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
+      className='fixed left-0 top-0 w-full z-10 ease-in duration-300 mt-0 md:mt-2'
     >
-      <div className=' m-auto flex justify-between items-center p-4 '>
+      <div className=' m-auto flex justify-between items-center p-4'>
        
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 text-black font-bold'>
@@ -60,11 +60,11 @@ const ContactNav = () => {
         </Link>
         </div>
         <ul>
-        {/* <li className='p-4 hidden md:flex '>
+        {/* <li className='p-4 hidden md:flex'>
           <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black">
           <Link href='/contact'>WORK WITH US </Link>
           </button>
-          </li> */}
+        </li> */}
         </ul>
 
        
@@ -81,7 +81,7 @@ const ContactNav = () => {
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={20} />
+            <AiOutlineMenu size={20}  />
           )}
         </div>
         {/* Mobile Menu */}
@@ -93,14 +93,14 @@ const ContactNav = () => {
           }
         > 
           <ul>
-            <li onClick={handleNav} className='p-4 text-2xl font-bold hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold text-white'>
               <Link href='/about'>ABOUT</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-2xl font-bold hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-2xl font-bold text-white'>
               <Link href='/works'>WORK</Link>
             </li>
-            {/* <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-medium text-white border border-white dark:hover:bg-black'>
-              <Link href='/work'>WORK WITH US</Link>
+            {/* <button onClick={handleNav} className='py-4 px-5 mr-2 mb-2 text-2xl mt-4 font-bold text-white border border-white dark:hover:bg-black'>
+              <Link href='/contact'>WORK WITH US</Link>
             </button> */}
 
           </ul>

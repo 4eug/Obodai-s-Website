@@ -1,11 +1,7 @@
 import AboutHead from "../components/About/About";
-import Help from "../components/About/Help";
-import WhatWeAre from "../components/About/What-we-are";
-import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/footer"
 import LetsTalk from "../components/Let's Talk/lets-talk";
 import AboutNav from "../components/NavBar/about-nav";
-import Mininav from "../components/NavBar/mini-nav"
 import { CaseStudies } from "../components/Projects/works/caseStudies";
 import Meta from "../components/utilities/meta/meta";
 

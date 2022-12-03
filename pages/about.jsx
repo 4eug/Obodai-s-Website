@@ -5,7 +5,6 @@ import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/footer"
 import LetsTalk from "../components/Let's Talk/lets-talk";
 import AboutNav from "../components/NavBar/about-nav";
-import Mininav from "../components/NavBar/mini-nav"
 import Meta from "../components/utilities/meta/meta";
 
 const About = () => {
